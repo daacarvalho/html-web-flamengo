@@ -1,0 +1,90 @@
+body {
+	background-color: black;
+  font-family: 'Montserrat', sans-serif;                                           
+}
+
+
+h1,h2,h3,h4,h5,h6,p {
+	color: #d2232a;
+}
+
+.nome,.idade,.nacionalidade{
+  background-color: #d2232a;
+  color: white;
+  border: 1px solid #d2232a;
+  border-radius: 20px;
+  width: min-content;
+  height: min-content;
+  padding-right:0.8rem ;
+  padding-left:0.8rem;
+  margin-top: 0.8rem;
+}
+
+.foto {
+  object-fit:  cover;
+  object-position: 20% 0;
+  border-radius: 70px;
+  width: 260px;
+  height: 200px;
+}
+
+hr:deep() {
+  color: #d2232a;
+  opacity: 1px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding-left: 50px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#d2232a;
+  text-align: center;
+}
+
+ul li::before {
+  color: red;
+}
+
+table {
+	background-color: coral;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.jogadores {
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+}
+
+.jogadores-flex {
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+}
+
